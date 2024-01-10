@@ -1,0 +1,313 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+/* SECCION INICIO */
+
+.inicio {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.inicio .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .contenido-seccion header {
+    padding: 30px;
+}
+
+.inicio .contenido-seccion header nav {
+    position: fixed;
+    margin-left: 60px;
+    background-color: #079181;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.inicio .contenido-seccion header nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.inicio .contenido-seccion header .logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+}
+
+.inicio .contenido-seccion header .logo .color {
+    color: #079181;
+    font-family: "Yellowtail";
+}
+
+.inicio .contenido-seccion header .nav-bar {
+    position: fixed;
+    background-color: #079181;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.inicio .contenido-seccion header .nav-bar:hover {
+    box-shadow: 0 0 35px #fff;
+}
+
+.inicio .contenido-seccion .info {
+    padding-bottom: 130px;
+}
+
+.inicio .contenido-seccion .info h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.inicio .contenido-seccion .info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+/*SECCION EXPERIENCIA*/
+
+.experiencia {
+    background-color: #9DC5BB;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.experiencia .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.experiencia .titulo-seccion {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.experiencia .fila {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experiencia .col {
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #dee5e5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia .col .titulo-detalle {
+    font-weight: bold;
+    color: #079181;
+}
+
+/*SECCION EDUCACION*/
+
+.educacion {
+    background-color: #17B890;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.educacion .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.educacion .titulo-seccion {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.educacion .fila {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.educacion .col {
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #dee5e5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.educacion .col .titulo-detalle {
+    font-weight: bold;
+    color: #17B890;
+}
+
+/*SECCION CURSOS*/
+
+.cursos {
+    background-color: #5e807f;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cursos .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cursos .titulo-seccion {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.cursos .fila {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cursos .col {
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #dee5e5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cursos .col .titulo-detalle {
+    font-weight: bold;
+    color: #5e807f;
+}
+
+/*SECCION HABILIDADES*/
+
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/habilidades.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.habilidades .contenido-seccion .fila .col{
+    width: 30%;
+    text-align: left;
+}
+
+/*SECCION CONTACTO*/
+
+.contacto{
+    background-color: #202020;
+    padding: 130px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto  .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto .fila .col{
+    margin-top: 50px;
+}
+
+.contacto .redes{
+    margin: 20px 0;
+}
+
+.contacto .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #079181;
+    border: 1px solid #079181;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3S;
+}
+.contacto .redes a:hover{
+    color: #fff;
+    background-color: #079181;
+    box-shadow: 0 0 20px #fff;
+}
+
+footer{
+    margin-top: 80px;
+    font-size: 12px;
+}
+
+/*Seccion Responsive*/
+@media screen and (max-width:800px){
+    .experiencia .col {
+        width: 100%;
+    }
+    .educacion .col {
+        width: 100%;
+    }
+    .cursos .col {
+        width: 100%;
+    }
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .contacto  .fila{
+        display: block;
+    }
+}
